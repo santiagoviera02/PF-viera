@@ -11,7 +11,7 @@ import { EstudiantesService } from 'src/app/services/estudiantes.service';
 })
 export class InscripcionesService {
   URLlistaInscripciones =
-    'https://62af7944b0a980a2ef40b08d.mockapi.io/campus/v1/inscripciones/';
+    'https://62b5c8e542c6473c4b3a479f.mockapi.io/inscripciones';
 
   cursito: Cursos;
 
@@ -21,7 +21,7 @@ export class InscripcionesService {
     private http: HttpClient,
     private cursosService: CursosService,
     private estudiantesService: EstudiantesService
-  ) {}
+  ) { }
 
   getInscripcionesList(): Observable<Inscripciones[]> {
     return this.http.get<Inscripciones[]>(this.URLlistaInscripciones);
