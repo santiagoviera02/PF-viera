@@ -7,8 +7,6 @@
     Usuarios
   </div>
 
-
-
   <table #myTable mat-table [dataSource]="datos$">
     <ng-container matColumnDef="idUsuario">
       <th mat-header-cell *matHeaderCellDef>ID Usuario</th>
@@ -22,7 +20,7 @@
 
     <ng-container matColumnDef="contrasena">
       <th mat-header-cell *matHeaderCellDef>Contrasena</th>
-      <td mat-cell *matCellDef="let element">{{ element.contrase }}</td>
+      <td mat-cell *matCellDef="let element">{{ element.contrasena }}</td>
     </ng-container>
 
     <ng-container matColumnDef="rol">
@@ -44,7 +42,7 @@
         </a>
 
         <a *ngIf="authService.isAdmin" class="pointer mx-3" (click)="openDialogEliminar(element)"
-          [routerLink]="['eliminar/', element.idAlumno]" matTooltip="Eliminar Usuario" style="color: rgb(170, 24, 24)">
+          [routerLink]="['eliminar/', element.idAlumno]" matTooltip="Eliminar Usuario" style="color: rgb(218, 33, 33)">
           <mat-icon>delete</mat-icon>
         </a>
       </mat-cell>

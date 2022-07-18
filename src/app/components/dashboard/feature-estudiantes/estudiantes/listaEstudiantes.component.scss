@@ -1,29 +1,32 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 table {
-    width: 100%;
-  }
-  th{
-    width: 20%;
-  }
-  .pointer{
-    cursor: pointer;
-  }
-  .mat-form-field {
-    font-size: 14px;
-    width: 100%;
-  }
+  width: 100%;
+}
 
-  button {
-   display: block;
-   margin-bottom: 10px;
+th {
+  width: 20%;
+}
 
-  }
+.pointer {
+  cursor: pointer;
+}
 
-.mat-header-cell  {
-    background-color:  rgba(237, 36, 46, 0.51);
-    color: white;
-  }
+.mat-form-field {
+  font-size: 14px;
+  width: 100%;
+}
+
+button {
+  display: block;
+  margin-bottom: 10px;
+
+}
+
+.mat-header-cell {
+  background-color: rgb(146, 204, 248);
+  color: white;
+}
 
 .acciones {
   display: flex;

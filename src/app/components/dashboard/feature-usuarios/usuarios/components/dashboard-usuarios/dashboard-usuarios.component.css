@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 table {
-  width: 70vw;
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 
@@ -25,8 +29,12 @@ button {
 }
 
 .mat-header-cell {
-  background-color: rgba(237, 36, 46, 0.51);
+  background-color: rgb(146, 204, 248);
   color: white;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .acciones {
@@ -37,6 +45,8 @@ button {
 
 .rol {
   font-family: 'Inter';
+  margin-top: auto;
+  margin-bottom: auto;
   font-size: 20px;
   font-weight: bolder;
   margin-left: 40px;

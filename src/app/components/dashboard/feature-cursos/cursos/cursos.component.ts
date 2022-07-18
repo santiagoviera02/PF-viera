@@ -32,7 +32,6 @@ export class CursosComponent implements OnInit {
     'cursoDias',
     'precio',
     'profesor',
-    'detalle',
     'acciones',
   ];
 
