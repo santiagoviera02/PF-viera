@@ -1,5 +1,5 @@
 <div class="container bg-div">
-  <span appTwenty class="rol">Bienvenido {{datosUsuario}}!</span>
+
   <h1 class="al">Inscripciones</h1>
 
   <div class="example-spacer"></div>
@@ -42,11 +42,12 @@
             <a class="pointer mx-3" matTooltip="Ver Detalle" (click)="openDialog2(element)" style="color: #18b031">
               <mat-icon>search</mat-icon>
             </a>
-            <a *ngIf="authService.isAdmin" class="pointer mx-3" (click)="openDialog(element)" matTooltip="Editar Datos" style="color: #1c89c9">
+            <a *ngIf="authService.isAdmin" class="pointer mx-3" (click)="openDialog(element)" matTooltip="Editar Datos"
+              style="color: #1c89c9">
               <mat-icon>edit</mat-icon>
             </a>
-            <a *ngIf="authService.isAdmin" class="pointer mx-3" (click)="deleteInscripcion(element.idInscripcion)" matTooltip="Eliminar Alumno"
-              style="color: rgb(170, 24, 24)">
+            <a *ngIf="authService.isAdmin" class="pointer mx-3" (click)="deleteInscripcion(element.idInscripcion)"
+              matTooltip="Eliminar Alumno" style="color: rgb(170, 24, 24)">
               <mat-icon>delete</mat-icon>
             </a>
           </td>

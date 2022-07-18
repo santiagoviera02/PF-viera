@@ -59,9 +59,7 @@ import { environment } from 'src/environments/environment';
     CrearInscripcionComponent,
     EditarEstudianteComponent,
 
-
-
-    ],
+  ],
   imports: [
     CommonModule,
     DashboardRoutingModule,
@@ -81,12 +79,12 @@ import { environment } from 'src/environments/environment';
     StoreDevtoolsModule.instrument({
       maxAge: 25,
       logOnly: environment.production,
-      name: 'Prueba NgRx',
+      name: '',
     }),
 
 
 
-    ], exports: [
+  ], exports: [
     MaterialModule,
     FeatureInscripcionesModule,
     FeatureCursosModule,
