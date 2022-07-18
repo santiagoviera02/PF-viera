@@ -1,0 +1,7 @@
+<table mat-table [dataSource]="auxCurso" class="mat-elevation-z8 full-width-min">
+  <ng-container matColumnDef="cursoNombre">
+
+    <td mat-cell *matCellDef="let element">
+      {{ element | nombreCurso}}
+    </td>
+  </ng-container>

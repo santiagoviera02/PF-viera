@@ -1,0 +1,63 @@
+.body {
+  background-size: 60%;
+  background-attachment: fixed;
+  background-image: url('https://img.freepik.com/foto-gratis/fondo-texturizado-marmol-blanco-negro-abstracto_53876-104630.jpg?w=740&t=st=1656102708~exp=1656103308~hmac=4237c71d8a1ec7d8f994dd9d360ec8fbbb336eded0a75f8d2869d9a0786919df');
+}
+
+.login {
+  background-color: rgb(131, 130, 130);
+  border: 1px solid rgb(255, 254, 254);
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.login form {
+  display: flex;
+  margin: 30px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+.ancho {
+  width: 80%;
+}
+
+.spinner {
+  margin: 0 auto;
+}
+
+
+mat-form-field {
+  width: 90%;
+}
+
+.example-spacer {
+  margin: 21.8%;
+}
+
+.example-section {
+  margin: 12px 0;
+}
+
+.example-margin {
+  margin: 0 12px;
+}
+
+ul {
+  list-style-type: none;
+  margin-top: 4px;
+}
+
+img {
+  width: 250px;
+  height: 250px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+button {
+  margin-bottom: 15px;
+}

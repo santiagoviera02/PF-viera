@@ -1,0 +1,19 @@
+.contenedor {
+  height: 100%;
+  background-image: url('https://fondosmil.com/descargar/marmol-blanco-33460');
+
+}
+
+.side {
+  display: flex;
+  flex-direction: column;
+}
+
+.butn {
+  background-color: #673AB7;
+  color: white;
+  padding: 10px;
+  border: 1px white;
+  border-radius: 6px;
+  margin: 10px;
+}

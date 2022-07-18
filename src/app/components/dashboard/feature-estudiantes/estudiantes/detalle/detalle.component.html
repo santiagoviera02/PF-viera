@@ -1,0 +1,29 @@
+<div class="container">
+
+  <h1 appTwenty class="al">Detalles del alumno</h1>
+  <mat-card class="mt-4">
+    <div class="card" role="list">
+      <h5 class="card-header" role="listitem">{{data.nombre}}</h5>
+      <div class="card-body">
+        <h5 class="card-title" role="listitem">Mail: {{data.correo}}</h5>
+        <p class="card-text" role="listitem">
+          <mat-list-item role="listitem">Edad: {{data.edad}}</mat-list-item>
+        </p>
+        <p>
+          <mat-list-item role="listitem">Tel: {{data.telefono}} </mat-list-item>
+        </p>
+
+
+        <div>
+
+        </div>
+        <!-- <a (click)="cerrar()" class="btn btn-primary">Cerrar</a> -->
+      </div>
+    </div>
+  </mat-card>
+</div>
+
+
+<div mat-dialog-actions>
+  <button mat-button (click)="onNoClick()">Volver atrás</button>
+</div>
