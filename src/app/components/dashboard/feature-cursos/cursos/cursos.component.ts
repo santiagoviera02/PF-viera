@@ -73,7 +73,6 @@ export class CursosComponent implements OnInit {
         cursoDias: curso.cursoDias,
         precio: curso.precio,
         profesor: curso.profesor,
-        detalle: curso.detalle,
       },
     });
 
@@ -92,7 +91,7 @@ export class CursosComponent implements OnInit {
         cursoDias: curso.cursoDias,
         precio: curso.precio,
         profesor: curso.profesor,
-        detalle: curso.detalle,
+
       },
     });
 

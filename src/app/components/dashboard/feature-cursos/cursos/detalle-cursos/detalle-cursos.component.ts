@@ -43,7 +43,7 @@ export class DetalleCursosComponent implements OnInit {
       cursoDias: curso.cursoDias,
       precio: curso.precio,
       profesor: curso.profesor,
-      detalle: curso.detalle,
+
     });
   }
 
